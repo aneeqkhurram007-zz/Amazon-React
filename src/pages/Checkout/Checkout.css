@@ -1,0 +1,35 @@
+.checkout_wrap {
+  max-width: 600px;
+  margin: 0px 20px;
+  margin-top: 30px;
+}
+.checkout__form {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.checkout_column {
+  margin: auto 20px;
+}
+.checkout_column label {
+  display: block;
+  margin-top: 20px;
+}
+.checkout_column input {
+  width: 100%;
+}
+.checkout_column select {
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 10px 0px;
+}
+.checkout_column button {
+  background-color: #f0c14d;
+  border-radius: 5px;
+  width: 100%;
+  border: 0px;
+  outline: 0;
+  cursor: pointer;
+  padding: 10px 0px;
+}
